@@ -1,0 +1,561 @@
+.ReportsMainContainer{
+    position: absolute;
+    height: 85%;
+    top: 13%;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
+.LeftSection{
+    position: fixed;
+    top: 12%;
+    height: 100%;
+    width: 16%;
+    left: 0%;
+    display: block;
+    overflow: auto;
+    background-color: #373737;
+}
+
+.AdminPanelTitle{
+    position: absolute;
+    width: 90%;
+    height: 5%;
+    left: 10%;
+    top: 5%;
+}
+.AdminPanelTitleText{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.0vw;
+    line-height: 1.5vw;
+    letter-spacing: 0.065em;
+    color: #f8f8f8;
+}
+.UserNameTitle{
+    position: relative;
+    width: 90%;
+    height: 5%;
+    left: 10%;
+    top: 10%;
+}
+.UserNameTitleText{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 1.5vw;
+    letter-spacing: 0.065em;
+    color: #f8f8f8;
+}
+
+.BtnContainer{
+    position: relative;
+    width: 90%;
+    height: 5%;
+    left: 10%;
+    top: 20%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #37373700;
+    
+    border: none;
+}
+
+.LogoutBtn{
+    position: relative;
+    width: 80%;
+    height: 5%;
+    left: 10%;
+    top: 42%;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: #37373700;
+    border: none;
+    text-indent: 0.5vw;
+    color: #f8f8f8;
+}
+.LogoutBtn:hover{
+    background-color: #1a735d;
+    border-radius: 3vw;
+    
+}
+.TitleText, .LogoutBtn {
+    text-align: start;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    letter-spacing: 0.065em;
+    
+}
+.TitleText:hover{
+    color: #30FFC7;
+}
+
+
+
+.DashtSection{
+    background-color: rgb(209, 209, 209);
+    position: absolute;
+    top: 20%;
+    height: 77%;
+    width: 81%;
+    left: 17.5%;
+    display: block;
+    overflow: auto;
+    background: #F8F8F8;   
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+}
+.Dasht1Section{
+    background-color: rgb(209, 209, 209);
+    position: absolute;
+    top: 5%;
+    height: 8%;
+    width: 81%;
+    left: 17.5%;
+    display: block;
+    overflow: auto;
+    background: #F8F8F8;   
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+}
+/*---------PB-----------------------------------------------------------*/
+.PBserach{
+    background-color: rgb(209, 209, 209);
+    position: absolute;
+    top: 5%;
+    height: 8%;
+    width: 81%;
+    left: 17.5%;
+    display: block;
+    overflow: auto;
+    background: #F8F8F8;   
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    text-indent: 2%;
+}
+.PBRightSection{
+    background-color: rgb(209, 209, 209);
+    position: absolute;
+    top: 16%;
+    height: 82%;
+    width: 59.6%;
+    left: 17.5%;
+    display: block;
+    overflow: auto;
+    background: #F8F8F8;   
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    text-indent: 2%;
+}
+.PBRightRecords{
+    background-color: rgb(209, 209, 209);
+    position: absolute;
+    top: 16%;
+    height: 82%;
+    width: 20%;
+    left: 78.5%;
+    display: block;
+    overflow: auto;
+    background: #F8F8F8;   
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    text-indent: 2%;
+}
+
+
+.BIMain{
+    position: absolute;
+    top: 1vw;
+    height: 96%;
+    overflow: auto;
+    width: 81vw;
+    left: 17vw;
+    display: flex;
+    overflow: auto;
+    /* background-color: #30FFC7; */
+}
+.BISection{
+    /* background-color: rgb(209, 209, 209); */
+    
+    position: absolute;
+    top: 6vw;
+    height: 35vw;
+    width: 81vw;
+    left: 0vw;
+    padding-left: 1vw;
+    display: flex;
+    overflow: auto;
+    /* background: #F8F8F8;     */
+    box-sizing: border-box;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 30px; */
+    column-count: 4;
+    column-gap: 2vw;
+}
+.s1card {
+    transition: 0.3s;    
+    position: relative;
+    width: 18vw;
+    height: 30vw;
+    left: 1vw;
+    top: 2vw;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4.10567px 4.10567px rgba(0, 0, 0, 0.25);
+    border-radius: 1.7vw;
+    border: none;
+    background-image: url("../images/situation1.jpg");
+    background-repeat: no-repeat;
+    background-size: 200% 85%;
+    background-position-x: right;
+  }
+  
+.s1card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: scale(1.1);
+
+}
+
+.s2card {
+    transition: 0.3s;    
+    position: relative;
+    width: 18vw;
+    height: 30vw;
+    left: 1vw;
+    top: 2vw;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4.10567px 4.10567px rgba(0, 0, 0, 0.25);
+    border-radius: 1.7vw;
+    border: none;
+    background-image: url("../images/situation2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 200% 85%;
+    background-position-x: right;
+  }
+  
+.s2card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: scale(1.1);
+
+}
+.e1card {
+    transition: 0.3s;    
+    position: relative;
+    width: 18vw;
+    height: 30vw;
+    left: 1vw;
+    top: 2vw;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4.10567px 4.10567px rgba(0, 0, 0, 0.25);
+    border-radius: 1.7vw;
+    border: none;
+    background-image: url("../images/evaluation1.jpg");
+    background-repeat: no-repeat;
+    background-size: 200% 85%;
+    background-position-x: 75%;
+  }
+  
+.e1card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: scale(1.1);
+
+}
+.e2card {
+    transition: 0.3s;    
+    position: relative;
+    width: 18vw;
+    height: 30vw;
+    left: 1vw;
+    top: 2vw;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4.10567px 4.10567px rgba(0, 0, 0, 0.25);
+    border-radius: 1.7vw;
+    border: none;
+    background-image: url("../images/evaluation2.jpg");
+    background-repeat: no-repeat;
+    background-size: 200% 85%;
+    background-position-x: 40%;
+  }
+  
+.e2card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: scale(1.1);
+
+}
+.s1Image{
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    left: 8%;
+    top: -1%;
+    align-items: center;
+
+}
+
+.s1Title{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 17%;
+    top: 82%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0vw;
+    line-height: 2.0vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.065em;
+
+    color: #353535eb;
+
+}
+
+.s1Text{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    left: 15%;
+    top: 49%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.s1StartButton{
+    position: relative;
+    width: 7vw;
+    height: 4vw;
+    left: 5.5vw;
+    top: 24.5vw;
+    
+    border-radius: 100px;
+    background: #22856A;
+}
+
+.s1StartText{
+    position: relative;
+    width: 0; 
+    height: 0;     
+    left: 3vw;
+    top: 1vw;
+    background: #ffffff00;
+    border-radius: 0vw;
+    border-color: #22856b00;
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;
+    border-left: 2vw solid #FFFFFF;
+}
+
+
+.BISearchBar{
+    position: absolute;
+    display: flex;
+    column-count: 2;
+    column-gap: 1vw;
+    
+    height: 3vw;
+    width: 77.7vw;
+
+}
+
+.DashSearchBar{
+    position: absolute;
+    display: flex;
+    column-count: 2;
+    column-gap: 1vw;
+    left: 15.5vw;
+    height: 3vw;
+    width: 80.5vw;
+
+}
+.BIReports1{
+    position: relative;
+    top:2vw;
+    width: 72vw;
+    left: 2vw;
+    background-color: #F8F8F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1vw;
+    color: #000000;
+    border: none;
+
+}
+
+.BIReports{
+    position: relative;
+    top:2vw;
+    width: 22vw;
+    height: 3vw;
+    left: 2vw;
+    background-color: #F8F8F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 3vw;
+    color: #000000;
+    border: none;
+
+}
+.BIReports:hover, .BIReports2:hover{
+    background-color: #1a735d;
+    color: #F8F8F8;
+   
+}
+
+.searchImage{
+    width: 1.5vw;
+    height: 1.5vw;
+    left: 1vw;
+    position: relative;
+    display:flex;
+    top:2.7vw;
+    z-index: 1;
+    top: 0.01vw;
+
+}
+body:has(.BIReports:hover) .searchImage{
+    /* filter: opacity(1) drop-shadow(0 0 0 #F8F8F8); */
+    filter: invert(100%);
+}
+
+.BIReports2{
+    position: relative;
+    height: 3vw;
+    left: 0.3vw;
+    background-color: #f8f8f800;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1vw;
+    color: #000000;
+    border: none;
+}
+
+.BIStudentInfoMainFrame{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    margin-left: 15vw;
+    height: 50vh;
+    width: 50vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #f8f8f8e2;
+    border-radius: 2vw;
+}
+.BIStudentsInfoTitle{
+    position: relative;
+    display: flex;
+    vertical-align:middle;
+    margin-left: 15vw;
+    margin-top: 5vh;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.55vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1vw;
+    cursor: default;
+}
+
+.BIStudentinfoForm{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 80%;
+    margin-top: 5vh;
+    margin-left: 0.5vw;
+}
+
+.BIFNameLabel, .BILNameLabel, .BIBNumberLabel, .BIFNameInput, .BILNameInput, .BIBNumberInput{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1vw;
+    width: 7vw;
+    height: 6vh;
+    color: #000000;
+}
+
+.BIFNameInput, .BILNameInput,.BIBNumberInput{
+    background-color: #e0e0e087;
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    margin-top: 0.3vh;
+    border: 1px solid #dbdbdb;
+} 
+.BINameDiv{
+    display: flex;
+}
+
+.BISubmitBtn{
+    position: relative;
+    width: 17vw;
+    height: 5vh;
+    border: none;
+    margin-top: 5vh;
+    background-color: #22856A;
+    color: #F8F8F8;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+}
+
+.PDFV01{
+    position: relative;
+}
