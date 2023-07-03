@@ -1,0 +1,290 @@
+.pbcard {
+    transition: 0.3s;    
+    position: absolute;
+    width: 27%;
+    height: 70%;
+    left: 72px;
+    top: 204px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4.10567px 4.10567px rgba(0, 0, 0, 0.25);
+    border-radius: 34.8982px;
+
+  }
+  
+.pbcard:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: scale(1.1); 
+}
+
+.pbImage{
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    left: 8%;
+    top: -1%;
+    align-items: center;
+
+}
+
+.personalBeliefTitle{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 22%;
+    top: 35%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0vw;
+    line-height: 2.0vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+
+}
+
+.personalBeliefInstructionText{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    left: 15%;
+    top: 49%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.pbStartButton{
+    position: absolute;
+    width: 83.1px;
+    height: 83.1px;
+    left: 40%;
+    top: 82%;
+    
+    border-radius: 100px;
+    background: #22856A;
+}
+
+.pbStartText{
+    position: absolute;
+    width: 0; 
+    height: 0;     
+    left: 40%;
+    top: 25%;
+    background: #ffffff00;
+    border-radius: 0px;
+    border-color: #22856b00;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #FFFFFF;
+}
+
+
+
+
+
+
+.cacard {
+    transition: 0.3s;    
+    position: absolute;
+    width: 27%;
+    height: 70%;
+    left: 36.5%;
+    top: 204px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4.10567px 4.10567px rgba(0, 0, 0, 0.25);
+    border-radius: 34.8982px;
+
+  }
+  
+.cacard:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: scale(1.1); 
+}
+
+.caImage{
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    left: 8%;
+    top: -1%;
+    align-items: center;
+
+}
+
+.criticalAnlysisTitle{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 22%;
+    top: 35%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0vw;
+    line-height: 2.0vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+
+}
+
+.criticalAnalysisInstructionText{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    left: 15%;
+    top: 49%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.caStartButton{
+    position: absolute;
+    width: 83.1px;
+    height: 83.1px;
+    left: 40%;
+    top: 82%;
+    
+    border-radius: 100px;
+    background: #22856A;
+}
+
+.caStartText{
+    position: absolute;
+    width: 0; 
+    height: 0;     
+    left: 40%;
+    top: 25%;
+    background: #ffffff00;
+    border-radius: 0px;
+    border-color: #22856b00;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #FFFFFF;
+}
+
+
+
+
+
+
+
+
+.ddcard {
+    transition: 0.3s;    
+    position: absolute;
+    width: 27%;
+    height: 70%;
+    left: 69%;
+    top: 204px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4.10567px 4.10567px rgba(0, 0, 0, 0.25);
+    border-radius: 34.8982px;
+
+  }
+  
+.ddcard:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+transform: scale(1.1);
+}
+
+.ddImage{
+    position: absolute;
+    width: 80%;
+    height: 45%;
+    left: 8%;
+    top: -1%;
+    align-items: center;
+
+}
+
+.difficultDecisionsTitle{
+    position: absolute;
+    width: 70%;
+    height: 20%;
+    left: 17%;
+    top: 35%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0vw;
+    line-height: 2.0vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+
+}
+
+.difficultDecisionsInstructionText{
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    left: 15%;
+    top: 49%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.15vw;
+    line-height: 1.4vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.ddStartButton{
+    position: absolute;
+    width: 83.1px;
+    height: 83.1px;
+    left: 40%;
+    top: 82%;
+    
+    border-radius: 100px;
+    background: #22856A;
+}
+
+.ddStartText{
+    position: absolute;
+    width: 0; 
+    height: 0;     
+    left: 40%;
+    top: 25%;
+    background: #ffffff00;
+    border-radius: 0px;
+    border-color: #22856b00;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #FFFFFF;
+}

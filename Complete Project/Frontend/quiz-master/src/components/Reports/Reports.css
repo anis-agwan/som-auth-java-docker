@@ -1,0 +1,181 @@
+.ReportsMainContainer {
+  position: absolute;
+  height: 85%;
+  top: 13%;
+  width: 100%;
+  overflow: auto;
+  display: flex;
+}
+.SectionTitle {
+  position: relative;
+  top: 5%;
+  left: 0%;
+  width: 100%;
+  height: 8%;
+}
+
+.ReportsTitleText {
+  text-indent: 30%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.3vw;
+  line-height: 3vw;
+  display: flex;
+  align-items: center;
+  color: #151515;
+}
+.LeftSection {
+  position: absolute;
+  top: 13%;
+  height: 87%;
+  width: 30%;
+  left: 0%;
+  display: block;
+  overflow: auto;
+}
+
+.PBBtnContainer {
+  position: absolute;
+  width: 95%;
+  height: 25%;
+  left: 4%;
+  top: 5%;
+  overflow: hidden;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+}
+.PBBtnContainer:hover {
+  border: 4px solid #84a2f0;
+}
+.PBImageGif {
+  position: relative;
+  width: 40%;
+  left: 2%;
+  height: 90%;
+  top: 5%;
+  display: block;
+}
+.PBTitleText {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.2vw;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  color: #000000;
+}
+
+.CABtnContainer {
+  position: absolute;
+  width: 95%;
+  height: 25%;
+  left: 4%;
+  top: 35%;
+  overflow: hidden;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+}
+.CABtnContainer:hover {
+  border: 4px solid #84a2f0;
+}
+.CAImageGif {
+  position: relative;
+  width: 35%;
+  height: 85%;
+  top: 5%;
+  left: 5%;
+  display: block;
+}
+.CATitleText {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.2vw;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  color: #000000;
+}
+
+.DDBtnContainer {
+  position: absolute;
+  width: 95%;
+  height: 25%;
+  left: 4%;
+  top: 65%;
+  overflow: hidden;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+}
+.DDBtnContainer:hover {
+  border: 4px solid #84a2f0;
+}
+
+.DDImageGif {
+  position: relative;
+  width: 40%;
+  left: 2%;
+  height: 90%;
+  top: 5%;
+  display: block;
+}
+.DDTitleText {
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.2vw;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  color: #000000;
+}
+button[id="btnClick"]:focus {
+  border: 4px solid #336af9;
+}
+
+.RightSection {
+  background-color: rgb(209, 209, 209);
+  position: absolute;
+  top: 18%;
+  height: 73.5%;
+  width: 63%;
+  left: 32.5%;
+  display: block;
+  overflow: auto;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.pbData-box {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,402 @@
+/* .progressBarContainer{
+    display:grid;
+    position:absolute;
+    width: 70%;
+    left: 3.5%;
+    top:15%;
+    height: 17%;
+  }
+  h4 {
+    position: relative;
+    width: 100%;
+    top: 75%;
+    height: 10%;
+    left: 0%;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 180%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #414040;
+  }
+  
+  .ProgressBarStyle {
+    position: relative;
+    top: 43%;
+    height: 3%;
+    left: 0%;
+    width: 85%;
+    background: #005941;
+    border-radius: 66px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .ProgressBarText {
+    position: relative;
+    top: 22%;
+    left: 86%;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #959595;
+  } */
+
+.DDQuesDiscription {
+  position: absolute;
+  width: 77%;
+  height: 77%;
+  left: 1%;
+  top: 13%;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #414040;
+}
+
+.DDMainContainer {
+  position: absolute;
+  display: flex;
+  left: 0%;
+  top: 0.9vw;
+  width: 1vw;
+  height: 80%;
+}
+.DDsectionIndex {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  left: 0%;
+  top: 1%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.3vw;
+  display: flex;
+  align-items: center;
+  color: #414040;
+  opacity: 0.8;
+}
+.DDSectionDescription {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  left: 0%;
+  width: 125%;
+  top: 1%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.7vw;
+  line-height: 2.3vw;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: #414040;
+}
+.DDQuesTitle {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: 10%;
+  left: 0%;
+  top: 5%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7vw;
+  line-height: 2.3vw;
+  display: flex;
+  align-items: center;
+  color: #414040;
+  opacity: 0.8;
+}
+
+.DDol {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.7vw;
+  line-height: 2.3vw;
+  color: #414040;
+}
+
+.DDQuesDisplay1 {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 5%;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.7vw;
+  line-height: 2.3vw;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: #414040;
+}
+.DDQuesDisplay2 {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0%;
+  top: 4%;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.7vw;
+  line-height: 2.3vw;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: #414040;
+}
+
+.DDOptions {
+  position: relative;
+  width: 100%;
+  height: 55%;
+  left: 0%;
+  top: 7%;
+  overflow: auto;
+}
+
+.DDoptionsArrangement {
+  box-sizing: border-box;
+
+  cursor: pointer;
+  position: relative;
+  width: 90%;
+  height: 55%;
+  left: 0%;
+  top: 0%;
+  margin-bottom: 1%;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2.3vw;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.DDoptionsArrangement:hover {
+  background: #eaeaea;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.checked {
+  box-sizing: border-box;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  margin-bottom: 0%;
+  background: rgba(28, 83, 56, 0.9);
+  color: #392;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  color: #f9f9f9;
+  text-overflow: clip;
+}
+.unchecked {
+  box-sizing: border-box;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  margin-bottom: 0%;
+  border-radius: 19px;
+  text-overflow: clip;
+}
+
+.DDOptionsText {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 30%;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 1.5vw;
+  line-height: 1.5vw;
+  align-items: center;
+  text-align: center;
+}
+
+.DDPrevBtn {
+  position: fixed;
+  width: 10%;
+  height: 48px;
+  left: 10%;
+  top: 92%;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #005941;
+  border-radius: 48.3978px;
+  border: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5vw;
+  line-height: 2.3vw;
+  align-items: center;
+  text-align: center;
+  color: rgba(230, 230, 234, 0.9);
+}
+.DDPrevBtn:hover {
+  background: rgba(28, 83, 56, 0.9);
+  color: rgba(223, 223, 223, 0.9);
+}
+.DDPrevbtnLabel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600%;
+  font-size: 1.5vw;
+  line-height: 2.3vw;
+  align-items: center;
+  text-align: center;
+  color: #f2f2f2;
+  text-indent: 10%;
+  margin-top: -5%;
+}
+
+.DDNextBtn {
+  position: fixed;
+  width: 10%;
+  height: 48px;
+  left: 50%;
+  top: 92%;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #005941;
+  border-radius: 48.3978px;
+  border: none;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5vw;
+  line-height: 2.3vw;
+  align-items: center;
+  text-align: center;
+  color: rgba(230, 230, 234, 0.9);
+}
+.DDNextBtn:hover {
+  background: rgba(28, 83, 56, 0.9);
+  color: rgba(223, 223, 223, 0.9);
+}
+.DDNextBtnLabel {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600%;
+  font-size: 1.5vw;
+  line-height: 2.3vw;
+  align-items: center;
+  text-align: center;
+  color: #f2f2f2;
+  text-indent: 10%;
+  margin-top: -5%;
+}
+
+.DDQuesNavItems1 {
+  position: absolute;
+  width: 18%;
+  height: 50%;
+  left: 79%;
+  top: 45%;
+  background: #ffffff;
+  border: 4px solid #ffffff;
+  box-shadow: 14px 4px 11px 8px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+}
+.DDNavques {
+  position: absolute;
+  top: 16%;
+  left: 1%;
+  height: 50%;
+  align-items: center;
+  justify-self: center;
+  overflow: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4vw;
+  line-height: 2.3vw;
+}
+.DDNoOfQuesHeading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4vw;
+  line-height: 2.3vw;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.DDSubmitBtn {
+  position: fixed;
+  width: 12%;
+  height: 5.5%;
+  left: 82%;
+  top: 85.5%;
+  cursor: pointer;
+
+  border: none;
+  background: #005941;
+  border-radius: 66px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.DDSubmitBtn:hover {
+  background-color: #ddd;
+  color: rgba(0, 0, 0, 0);
+}
+.DDSubmitBtnText {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  top: 0.5vw;
+  left: 5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5vw;
+  line-height: 1.3vw;
+  align-items: center;
+  text-align: center;
+  color: #f2f2f2;
+  text-decoration: none;
+  cursor: pointer;
+}
+.DDSubmitBtnText:hover {
+  color: black;
+  background-color: #dddddd00;
+}

@@ -1,0 +1,104 @@
+body, html{
+    height: 100%;
+    background: #E4F1EE;
+}
+
+.ddDescriptionTitleText{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    left: 0%;
+    top: 9%;
+    padding: 2%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #151515;
+    cursor:default;
+}
+
+.ddDescriptionText{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    left: 0%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.45vw;
+    line-height: 1.8vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #101010;
+    padding: 2.5%;
+    cursor:default;
+
+}
+
+.ddDescriptioninputForm{
+    box-sizing: border-box;
+
+    position:absolute;
+    width:15%;
+    height: 7%;
+    left: 42%;
+    top: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.ddNextButton{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    display:flex;
+    justify-self: center;
+    align-items: center;
+    background: #005941;
+    border-radius: 66px;
+}
+
+.ddNextText{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200%;
+    line-height: 29px;
+    display:block;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    
+    background-color: #00594100;
+    border-color: #ffffff00;
+    color: #FFFFFF;
+}
+.ddNextText:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ddNextText:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}

@@ -1,0 +1,116 @@
+.ddTableTitle{
+    position: absolute;
+    top: 15%;
+    height: 10%;
+    width: 100%;
+    left:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0vw;
+    line-height: 2.1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.ddImageContainer{
+    position: absolute;
+    top: 20%;
+    height: 80%;
+    width: 85%;
+    left:10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ddDImage{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.ddGotoDescriptions{
+    position: absolute;
+    width: 5.5vw;
+    height: 5.5vw;
+    left: 5%;
+    top: 50%;
+    border-radius: 500px;
+    background: #005941;
+}
+    
+
+.ddDiscBtnText{    
+    position: relative;
+    width: 5.5vw;
+    height: 5.5vw;
+    left: 25%;
+    top: 0%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.0vw;
+    line-height: 4.0vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.ddGotoquestions{
+    position: absolute;
+    width: 5.5vw;
+    height: 5.5vw;
+    left: 90%;
+    top: 50%;
+    border-radius: 500px;
+    background: #005941;
+}
+
+.ddQuesBtnText{
+    position: relative;
+    width: 5.5vw;
+    height: 5.5vw;
+    left: 30%;
+    top: 0%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.0vw;
+    line-height: 4.0vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ddTableText{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    top: 89%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw;
+    line-height: 2.1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+
+}

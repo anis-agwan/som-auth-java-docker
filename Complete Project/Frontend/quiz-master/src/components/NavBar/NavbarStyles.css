@@ -1,0 +1,139 @@
+.NavbarItems{
+    position:fixed;
+    width: 100%;
+    height: 12%;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background: #005941;
+    
+}
+
+.NavMenu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 1px;
+    list-style: none;
+    align-items:center;
+    justify-content: end;
+}
+.NavMenuImage{
+    width: 10%;
+    height: 10%;
+    margin-left: 90%;
+    margin-right: auto;
+}
+
+.BUSOMImageClass{
+    display:flex;
+    position: absolute;
+    width: 27%;
+    height: 70%;
+    top: 10%;
+    margin-left: 1%;
+    align-items: center;
+}
+
+.BUuserLogoImageClass{
+    display: flex;
+    position: absolute;
+    width: 3.5vw;
+    height: 3.5vw;
+    top: 1vw;
+    margin-left: 93%;
+    margin-right: auto;
+    
+}
+
+.BUuserLogoImageClass:active{
+    transform: scale(1.1);
+    background-color: black;
+    z-index: 2;
+}
+.dropDown{
+    position: absolute;
+    top: 1.5rem;
+    right: 3.5rem;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 10%;
+    z-index: 1;
+
+    box-shadow: 5px 6px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.dropDown::before{
+    content: '';
+    position: absolute;
+    top: -7rem;
+    right: 1.1rem;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+
+    
+}
+
+.dropDown.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+}
+
+.dropDown.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+}
+
+.menuStyle button{
+    display: block;
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    width:200px;
+    text-indent: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    letter-spacing: 0.065em;
+    color: #005941;
+    height: 40%;
+
+}
+
+.Dropdownlabel{
+    display: block;
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    width:200px;
+    text-indent: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    letter-spacing: 0.065em;
+    color: #000000;
+}
+
+.ProfileBtn:hover, .LogoutBtn:hover , .DashboardBtn1:hover, .ReportsBtn1:hover, .AboutUsBtn1:hover {
+    color: white;
+    background-color: #005941;
+    border-radius: 8px;
+    
+}

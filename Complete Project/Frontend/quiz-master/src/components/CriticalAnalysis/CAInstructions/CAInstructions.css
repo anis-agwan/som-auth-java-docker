@@ -1,0 +1,89 @@
+body,
+html {
+  height: 100%;
+  background: #e4f1ee;
+}
+.caTitleContainer {
+  position: absolute;
+  top: 130px;
+  left: 40vw;
+}
+.caTitleText {
+  position: relative;
+  width: 50%;
+  height: 20%;
+  top: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #151515;
+}
+
+.caInstructionText {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  top: 250px;
+  left: 0%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.9vw;
+  line-height: 2.5vw;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #101010;
+  padding: 2.5%;
+}
+
+.caStartQuizButton {
+  position: relative;
+  width: 15vw;
+  height: 4vw;
+  left: 40vw;
+  top: 250px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background: #005941;
+  border-radius: 6vw;
+}
+
+.caStartQuizText {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2vw;
+  line-height: 2vw;
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+
+  background-color: #00594100;
+  border-color: #ffffff00;
+  color: #ffffff;
+}
+.caStartQuizText:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.caStartQuizText:hover {
+  text-decoration: none;
+  color: #ffffff;
+}

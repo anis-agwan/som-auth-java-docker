@@ -1,0 +1,268 @@
+{ "questions" : [
+    {
+        "questionNumber": 1,
+        "questionDescription": "I like to learn things just for the benefit of learning.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 2,
+        "questionDescription": "I prefer to be spontaneous rather than plan a lot.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 3,
+        "questionDescription": "Some people make mistakes. but I try not to get involved because it's not my responsibility.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 4,
+        "questionDescription": "Supervisors need to keep tight controls over employees to make sure that work is done correctly.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 5,
+        "questionDescription": "I tend to be suspicious when someone I don't know tries to help me.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 6,
+        "questionDescription": "A good supervisor must be very careful not to interfere with the work of his/her subordinates, otherwise s/he can lose their support.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 7,
+        "questionDescription": "I usually like to do things the existing way instead of trying new ways.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 8,
+        "questionDescription": "If you really want something done right, you need to do it yourself.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 9,
+        "questionDescription": "Working with others can be very frustrating.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 10,
+        "questionDescription": "Managers who give too much responsibility to their employees will eventually become unnecessary for the company.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 11,
+        "questionDescription": "If I was a supervisor and had new employees, I'd prefer to let them find out for themselves about the rules and regulations of the company.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 12,
+        "questionDescription": "I always know the right answer.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 13,
+        "questionDescription": "I prefer to plan my days in advance and then follow my schedule.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 14,
+        "questionDescription": "If I see someone doing something incorrectly at work, I need to help him/her do it right.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 15,
+        "questionDescription": "It is important that a manager takes time to talk to his/her employees about non-work related topics.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 16,
+        "questionDescription": "I've never enjoyed team activities.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 17,
+        "questionDescription": "I prefer jobs that allow me to learn new things.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 18,
+        "questionDescription": "If I found out that one of my subordinates was not working properly, I would wait until he/she does it better instead of talking with them immediately.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 19,
+        "questionDescription": "A small group of people usually can come up with better ideas than one person by him/herself.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 20,
+        "questionDescription": "I try hard to keep my work area organized.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 21,
+        "questionDescription": "Planning ahead helps me to deal with problems when they come up.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 22,
+        "questionDescription": "I work better with others than I do alone.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 23,
+        "questionDescription": "I look forward to the challenges of the day.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 24,
+        "questionDescription": "I prefer individual sports to team sports.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 25,
+        "questionDescription": "Talking to employees about personal problems is something that isn't appropriate for a manager.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 26,
+        "questionDescription": "It would be diffcult to live with a messy person.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 27,
+        "questionDescription": "Having a schedule allows me to make the best use of my time.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 28,
+        "questionDescription": "I feel best when I belong to a group.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 29,
+        "questionDescription": "I keep my work area clean.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 30,
+        "questionDescription": "I try to arrive promptly for scheduled activities.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 31,
+        "questionDescription": "Deep down, most employees don't really want to be involved in decision making.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 32,
+        "questionDescription": "I would get involved if I saw two coworkers yelling at each other.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 33,
+        "questionDescription": "I like to feel like I am a member of a team.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 34,
+        "questionDescription": "I tend to be sensitive to the needs of others.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 35,
+        "questionDescription": "I you don't keep a watchful eye on your employees, you're bound to have problems.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 36,
+        "questionDescription": "I like to try out new ideas that I have.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 37,
+        "questionDescription": "On most projects I have, I try to plan ahead before getting started.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 38,
+        "questionDescription": "People should be expected to help coworkers who have fallen behind in their work.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 39,
+        "questionDescription": "Most people are not willing to take responsibility for their actions.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 40,
+        "questionDescription": "If I was a supervisor and found out that one of my employees wasn't working hard, I would give them some time to improve before saying anything.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 41,
+        "questionDescription": "I enjoy working with other as part of a team.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 42,
+        "questionDescription": "I do not like to set up and follow a schedule.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 43,
+        "questionDescription": "I enjoy helping out to get the job done.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 44,
+        "questionDescription": "People would describe me as a cautious person.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 45,
+        "questionDescription": "I have a hard time going along with the group unless the group uses my ideas or suggestions.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 46,
+        "questionDescription": "When I delegate a project to someone, I make sure s/he understands clearly what s/he needs to do.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 47,
+        "questionDescription": "I'd rather work as part of a group than by myself.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 48,
+        "questionDescription": "Only the top 10% of employees can be trusted with additional responsibility.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 49,
+        "questionDescription": "The threat of being fired for bad performance is a powerful motivator for most employees.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 50,
+        "questionDescription": "Even if something is working well, I think about how it can be improved.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 51,
+        "questionDescription": "It's all right to delegate fact-finding to employees, but managers need to make all of the final decisions.",
+        "startsWith": 5
+    },
+    {
+        "questionNumber": 52,
+        "questionDescription": "If I were a manager and an employee decreased his/her performance, I would speak with that employee as soon as possible and try to understand what is causing it.",
+        "startsWith": 1
+    },
+    {
+        "questionNumber": 53,
+        "questionDescription": "If I were a supervisor, I would make sure to thank my employees when they did a job well.",
+        "startsWith": 1
+    }
+]
+}

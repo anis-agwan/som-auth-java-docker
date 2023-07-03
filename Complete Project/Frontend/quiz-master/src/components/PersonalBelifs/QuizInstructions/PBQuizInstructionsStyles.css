@@ -1,0 +1,122 @@
+body, html{
+    height: 100%;
+    background: #E4F1EE;
+}
+
+
+.TitleText1{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    left: 40%;
+    top: 20%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #151515;
+}
+
+
+.InstructionText1{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 10%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36.91px;
+    line-height: 45px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.StartQuizButton1{
+    position: absolute;
+    width: 20%;
+    height: 8%;
+    left: 40.5%;
+    top: 76%;
+
+    background: #558274;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.StartQuizText1{
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    left: 30%;
+    top: 35%;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+
+
+
+.StartQuizButton11{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 47%;
+    top: 80%;
+    align-items: center;
+    background: #22856A;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    
+}
+
+.StartQuizText11{
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 35%;
+    top: 0%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 350%;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #00594100;
+    border-color: #00594100;
+    color: #ffffff;
+    
+}
+.StartQuizText11:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.StartQuizText11:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
