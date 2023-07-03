@@ -1,0 +1,479 @@
+[
+    {
+        "questionNumber": 1,
+        "questionDescription": "I like to learn things just for the benefit of learning.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 2,
+        "questionDescription": "I prefer to be spontaneous rather than plan a lot.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 3,
+        "questionDescription": "Some people make mistakes. but I try not to get involved because it's not my responsibility.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 4,
+        "questionDescription": "Supervisors need to keep tight controls over employees to make sure that work is done correctly.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 5,
+        "questionDescription": "I tend to be suspicious when someone I don't know tries to help me.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 6,
+        "questionDescription": "A good supervisor must be very careful not to interfere with the work of his/her subordinates, otherwise s/he can lose their support.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 7,
+        "questionDescription": "I usually like to do things the existing way instead of trying new ways.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 8,
+        "questionDescription": "If you really want something done right, you need to do it yourself.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 9,
+        "questionDescription": "Working with others can be very frustrating.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 10,
+        "questionDescription": "Managers who give too much responsibility to their employees will eventually become unnecessary for the company.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 11,
+        "questionDescription": "If I was a supervisor and had new employees, I'd prefer to let them find out for themselves about the rules and regulations of the company.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 12,
+        "questionDescription": "I always know the right answer.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 13,
+        "questionDescription": "I prefer to plan my days in advance and then follow my schedule.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 14,
+        "questionDescription": "If I see someone doing something incorrectly at work, I need to help him/her do it right.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 15,
+        "questionDescription": "It is important that a manager takes time to talk to his/her employees about non-work related topics.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 16,
+        "questionDescription": "I've never enjoyed team activities.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 17,
+        "questionDescription": "I prefer jobs that allow me to learn new things.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 18,
+        "questionDescription": "If I found out that one of my subordinates was not working properly, I would wait until he/she does it better instead of talking with them immediately.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 19,
+        "questionDescription": "A small group of people usually can come up with better ideas than one person by him/herself.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 20,
+        "questionDescription": "I try hard to keep my work area organized.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 21,
+        "questionDescription": "Planning ahead helps me to deal with problems when they come up.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 22,
+        "questionDescription": "I work better with others than I do alone.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 23,
+        "questionDescription": "I look forward to the challenges of the day.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 24,
+        "questionDescription": "I prefer individual sports to team sports.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 25,
+        "questionDescription": "Talking to employees about personal problems is something that isn't appropriate for a manager.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 26,
+        "questionDescription": "It would be diffcult to live with a messy person.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 27,
+        "questionDescription": "Having a schedule allows me to make the best use of my time.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 28,
+        "questionDescription": "I feel best when I belong to a group.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 29,
+        "questionDescription": "I keep my work area clean.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 30,
+        "questionDescription": "I try to arrive promptly for scheduled activities.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 31,
+        "questionDescription": "Deep down, most employees don't really want to be involved in decision making.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 32,
+        "questionDescription": "I would get involved if I saw two coworkers yelling at each other.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 33,
+        "questionDescription": "I like to feel like I am a member of a team.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 34,
+        "questionDescription": "I tend to be sensitive to the needs of others.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 35,
+        "questionDescription": "I you don't keep a watchful eye on your employees, you're bound to have problems.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 36,
+        "questionDescription": "I like to try out new ideas that I have.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 37,
+        "questionDescription": "On most projects I have, I try to plan ahead before getting started.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 38,
+        "questionDescription": "People should be expected to help coworkers who have fallen behind in their work.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 39,
+        "questionDescription": "Most people are not willing to take responsibility for their actions.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 40,
+        "questionDescription": "If I was a supervisor and found out that one of my employees wasn't working hard, I would give them some time to improve before saying anything.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 41,
+        "questionDescription": "I enjoy working with other as part of a team.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 42,
+        "questionDescription": "I do not like to set up and follow a schedule.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 43,
+        "questionDescription": "I enjoy helping out to get the job done.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 44,
+        "questionDescription": "People would describe me as a cautious person.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 45,
+        "questionDescription": "I have a hard time going along with the group unless the group uses my ideas or suggestions.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 46,
+        "questionDescription": "When I delegate a project to someone, I make sure s/he understands clearly what s/he needs to do.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 47,
+        "questionDescription": "I'd rather work as part of a group than by myself.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 48,
+        "questionDescription": "Only the top 10% of employees can be trusted with additional responsibility.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 49,
+        "questionDescription": "The threat of being fired for bad performance is a powerful motivator for most employees.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 50,
+        "questionDescription": "Even if something is working well, I think about how it can be improved.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 51,
+        "questionDescription": "It's all right to delegate fact-finding to employees, but managers need to make all of the final decisions.",
+        "stronglyDisAgree": 5,
+        "disAgree": 4,
+        "neutral": 3,
+        "agree": 2,
+        "stronglyAgree": 1
+    },
+    {
+        "questionNumber": 52,
+        "questionDescription": "If I were a manager and an employee decreased his/her performance, I would speak with that employee as soon as possible and try to understand what is causing it.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    },
+    {
+        "questionNumber": 53,
+        "questionDescription": "If I were a supervisor, I would make sure to thank my employees when they did a job well.",
+        "stronglyDisAgree": 1,
+        "disAgree": 2,
+        "neutral": 3,
+        "agree": 4,
+        "stronglyAgree": 5
+    }
+]
