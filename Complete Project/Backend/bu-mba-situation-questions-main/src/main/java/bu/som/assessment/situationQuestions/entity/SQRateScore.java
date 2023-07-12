@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name = "sqRateScore", schema = "situation_q")
+@Table(name = "sqRateScore", schema = "situations")
 public class SQRateScore {
     @Id
     @Column(name = "BingNumber")

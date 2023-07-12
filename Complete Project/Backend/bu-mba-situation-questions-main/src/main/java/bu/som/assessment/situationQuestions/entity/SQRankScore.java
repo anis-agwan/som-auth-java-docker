@@ -9,7 +9,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "sqRankScore", schema = "situation_q")
+@Table(name = "sqRankScore", schema = "situations")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

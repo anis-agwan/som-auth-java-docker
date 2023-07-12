@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Data
 @Entity
-@Table(name = "ct_questions_mod", schema = "critical_thinking")
+@Table(name = "ct_questions", schema = "critical_thinking")
 @NoArgsConstructor
 @AllArgsConstructor
 public class CriticalThinkingQuestions {

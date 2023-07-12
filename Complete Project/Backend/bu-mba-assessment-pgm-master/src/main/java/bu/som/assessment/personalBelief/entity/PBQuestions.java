@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 @Data
 @Entity
-@Table(name = "pb_questions", schema = "user")
+@Table(name = "pb_questions", schema = "personal_beliefs")
 @AllArgsConstructor
 @NoArgsConstructor
 public class PBQuestions {
