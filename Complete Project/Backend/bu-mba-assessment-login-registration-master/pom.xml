@@ -26,11 +26,17 @@
                 <artifactId>spring-boot-starter-web</artifactId>
             </dependency>
 
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-devtools</artifactId>
                 <scope>runtime</scope>
                 <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-mail</artifactId>
             </dependency>
 
             <dependency>
@@ -76,5 +82,23 @@
             </dependencies>
 
         </dependencyManagement>
+
+    <build>
+        <finalName>bu-mba-login-registration</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <configuration>
+                            <mainClass>org.example.bu-mba-assessment-login-registration-master.LoginRegistrationApplication</mainClass>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 
     </project>

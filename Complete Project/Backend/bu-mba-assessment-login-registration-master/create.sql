@@ -1,0 +1,1 @@
+create table user_details_token (email_id varchar(255) not null, b_number varchar(255), first_name varchar(255), last_name varchar(255), password varchar(255), role varchar(255), token varchar(255), updt_stat_cd varchar(255), primary key (email_id)) engine=InnoDB;
