@@ -101,6 +101,11 @@ public class LoginController {
         System.out.println(details.get("email"));
         String email = details.get("email");
         String mess = "";
+        String role = details.get("role");
+        if(role.equals("faculty")) {
+            System.out.println("FACULTY");
+            return loginService.inviteFaculty(email);
+        }
         return loginService.inviteUser(email);
     }
 

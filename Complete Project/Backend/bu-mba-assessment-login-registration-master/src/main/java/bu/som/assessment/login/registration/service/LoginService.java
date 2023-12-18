@@ -106,9 +106,26 @@ public class LoginService {
             emailDetails.setSubject("Invitation for SOM Leadership Assessment");
             emailDetails.setMsgBody("You have been invited to give SOM Leadership Assessment Quiz. You can access the below link to create a profile on the portal to start giving the assessment. Please do no share this with anyone. \n" + token);
             emailService.sendSimpleMail(emailDetails);
-            message = "An invitation linked is sent to "+ email + " via email.";
+            message = "An invitation linked is sent to the student at "+ email + " via email.";
         } else {
-            message = "User is already signed up";
+            message = "Student is already signed up";
+        }
+
+        return  message;
+    }
+
+    public String inviteFaculty(String email) {
+        String token = "http://3.23.60.160:3000/";
+        String message = "";
+        if(!repository.existsById(email)) {
+            EmailDetails emailDetails = new EmailDetails();
+            emailDetails.setRecipient(email);
+            emailDetails.setSubject("Invitation for SOM Leadership Assessment Portal");
+            emailDetails.setMsgBody("As a faculty of the SOM department, You have been invited to access student's SOM Leadership Assessment Quiz analyses. You can access the below link to create a profile on the portal to start accessing the portal. Please do no share this with anyone. \n" + token);
+            emailService.sendSimpleMail(emailDetails);
+            message = "An invitation linked is sent to the faculty at "+ email + " via email.";
+        } else {
+            message = "Faculty is already signed up";
         }
 
         return  message;
