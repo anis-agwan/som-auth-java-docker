@@ -4,9 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import javax.persistence.*;
+import java.sql.Date;
 
 @Entity
-@Table(name = "user_details_token")
+@Table(name = "user_details")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -27,13 +28,13 @@ public class UserDetails {
     @Column(name = "LAST_NAME")
     private String lastName;
 
+    @Column(name = "CREATED_AT")
+    private Date createdAt;
+
     @Column(name = "UPDT_STAT_CD")
     private String updateStatusCode;
 
     @Column(name = "ROLE")
     private String role;
-
-    @Column(name = "TOKEN")
-    private String token;
 
 }

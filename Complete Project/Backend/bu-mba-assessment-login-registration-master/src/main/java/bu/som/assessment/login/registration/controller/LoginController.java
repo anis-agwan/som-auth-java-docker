@@ -96,6 +96,14 @@ public class LoginController {
         return "No Such email found";
     }
 
+    @PostMapping("invite")
+    public String inviteUser(@RequestBody HashMap<String, String> details) {
+        System.out.println(details.get("email"));
+        String email = details.get("email");
+        String mess = "";
+        return loginService.inviteUser(email);
+    }
+
     @PostMapping("confirmtoken")
     public ForgotPassResponseDTO confirmToken(@RequestBody ForgotPasswordDTO forgotPasswordDTO) {
         try {

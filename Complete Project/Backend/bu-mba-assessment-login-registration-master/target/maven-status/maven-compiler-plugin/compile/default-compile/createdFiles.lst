@@ -1,5 +1,6 @@
 bu/som/assessment/login/registration/Dto/ForgotPasswordDTO.class
 bu/som/assessment/login/registration/entity/UserDetails.class
+bu/som/assessment/login/registration/repository/RegTempTokenRepository.class
 bu/som/assessment/login/registration/controller/LoginController.class
 bu/som/assessment/login/registration/service/LoginService.class
 bu/som/assessment/login/registration/Dto/LoginResponseDto.class
@@ -13,3 +14,4 @@ bu/som/assessment/login/registration/Dto/ExistingUserDto.class
 bu/som/assessment/login/registration/controller/RegistrationController.class
 bu/som/assessment/login/registration/repository/UserDetailsRepository.class
 bu/som/assessment/login/registration/Dto/NewUserDto.class
+bu/som/assessment/login/registration/entity/RegTempToken.class

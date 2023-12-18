@@ -4,7 +4,9 @@ import bu.som.assessment.login.registration.Dto.ExistingUserDto;
 import bu.som.assessment.login.registration.Dto.ForgotPassResponseDTO;
 import bu.som.assessment.login.registration.Dto.LoginResponseDto;
 import bu.som.assessment.login.registration.entity.EmailDetails;
+import bu.som.assessment.login.registration.entity.RegTempToken;
 import bu.som.assessment.login.registration.entity.UserDetails;
+import bu.som.assessment.login.registration.repository.RegTempTokenRepository;
 import bu.som.assessment.login.registration.repository.UserDetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +19,9 @@ public class LoginService {
 
     @Autowired
     private UserDetailsRepository repository;
+
+    @Autowired
+    RegTempTokenRepository regTempTokenRepository;
 
     @Autowired
     private EmailServiceImpl emailService;
@@ -73,10 +78,11 @@ public class LoginService {
         String token = new String();
 
         if(repository.existsById(email)) {
-            UserDetails res = repository.findByEmailId(email);
+            RegTempToken res = new RegTempToken();
+            res.setEmailId(email);
             token = getSaltString();
             res.setToken(token);
-            repository.save(res);
+            regTempTokenRepository.save(res);
 
             EmailDetails emailDetails = new EmailDetails();
             emailDetails.setRecipient(email);
@@ -91,11 +97,29 @@ public class LoginService {
         return token;
     }
 
+    public String inviteUser(String email) {
+        String token = "http://3.14.79.66:3000/";
+        String message = "";
+        if(!repository.existsById(email)) {
+            EmailDetails emailDetails = new EmailDetails();
+            emailDetails.setRecipient(email);
+            emailDetails.setSubject("Invitation for SOM Leadership Assessment");
+            emailDetails.setMsgBody("You have been invited to give SOM Leadership Assessment Quiz. You can access the below link to create a profile on the portal to start giving the assessment. Please do no share this with anyone. \n" + token);
+            emailService.sendSimpleMail(emailDetails);
+            message = "An invitation linked is sent to "+ email + " via email.";
+        } else {
+            message = "User is already signed up";
+        }
+
+        return  message;
+    }
+
     public ForgotPassResponseDTO confirmToken(String email, String token) {
         String text = new String();
         ForgotPassResponseDTO responseDTO = new ForgotPassResponseDTO();
         if(repository.existsById(email)) {
-            UserDetails res = repository.findByEmailId(email);
+            RegTempToken res = regTempTokenRepository.findByEmailId(email);
+            System.out.println("BLAH BLAH " + res);
             if(res.getToken().equals(token)) {
                 responseDTO.setEmail(email);
                 responseDTO.setIsValid(true);
@@ -128,8 +152,8 @@ public class LoginService {
         if(repository.existsById(email)) {
             UserDetails res = repository.findByEmailId(email);
             res.setPassword(password);
-            res.setToken(null);
             repository.save(res);
+            regTempTokenRepository.deleteById(email);
             responseDTO.setEmail(email);
             responseDTO.setIsValid(true);
             responseDTO.setMessage("Password changed successfully");
